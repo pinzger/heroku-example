@@ -11,11 +11,11 @@ clone:
 
 pipelines:
   branches:
-   master:
-     - step:
-         script: # Modify the commands below to build your repository.
-           - npm install
-           - npm test
-           - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_STAGING.git master
+  master:
+    - step:
+        script: # Modify the commands below to build your repository.
+          - npm install
+          - npm test
+          - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_STAGING.git master
 
  
