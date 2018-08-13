@@ -61,3 +61,6 @@ typings/
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+# next.js build output
+.next
