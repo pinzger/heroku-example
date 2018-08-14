@@ -3,8 +3,8 @@ var app = express()
 
 // The code below will display 'Hello World How is it going!' to the browser when you go to http://localhost:3000
 app.get('/', function (req, res) {
-  var message = "This is an example using Heroku to deploy a node.js web app"
-  message += "\nUsing pull-based development model on GitHub"
+  var message = "Hello World!"
+//  message += "\nUsing pull-based development model on GitHub"
   res.send(message) 
 })
 
